@@ -1,0 +1,8 @@
+#player dictionary
+player={}
+n=int(input("enter the number of players"))
+for i in range(n):
+  pno=int(input("enter the player number:"))
+  pname=input("enter the player name:")
+  player[pno]=pname
+print(player)
