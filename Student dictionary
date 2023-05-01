@@ -1,0 +1,29 @@
+#student dictionary
+
+student={}
+
+n=int(input("enter the number students details"))
+
+for i in range(n):
+
+  sno=int(input ("enter the student sno:"))
+
+  sname=input("enter the student name:")
+
+  group=input ("enter the student group:")
+
+  clb=input("enter the college branch:")
+
+  ph=int(input("enter the student phone number"))
+
+  student[sno]=[sname,group,clb,ph]
+
+s=int(input("enter the student sno for details:"))
+
+print("student name:",student[s][0])
+
+print("student group:",student[s][1])
+
+print("student college branch:",student[s][2])
+
+print("student phone number:",student[s][3])
